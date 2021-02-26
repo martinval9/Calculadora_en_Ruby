@@ -35,6 +35,7 @@ def opciones
 		puts " El Resultado es #{sumar} \n ".colorize(:green)
 
 		#Retornar el codigo
+		
 		print " ¿Desea realizar otro calculo [1 para aceptar o presiona ENTER para salir]? = ".colorize(:cyan)
 		retornar = gets.chomp.to_i
 		
@@ -57,6 +58,7 @@ def opciones
 		puts " El Resultado es #{restar} \n ".colorize(:green)
 
 		#Retornar el codigo
+		
 		print " ¿Desea realizar otro calculo [1 para aceptar o presiona ENTER para salir]? = ".colorize(:cyan)
 		retornar = gets.chomp.to_i
 		
@@ -79,6 +81,7 @@ def opciones
 		puts " El Resultado es #{multiplicar} \n ".colorize(:green)
 
 		#Retornar el codigo
+		
 		print " ¿Desea realizar otro calculo [1 para aceptar o presiona ENTER para salir]? = ".colorize(:cyan)
 		retornar = gets.chomp.to_i
 		
@@ -101,6 +104,7 @@ def opciones
 		puts " El Resultado es #{dividir} \n ".colorize(:green)
 
 		#Retornar el codigo
+		
 		print " ¿Desea realizar otro calculo [1 para aceptar o presiona ENTER para salir]? = ".colorize(:cyan)
 		retornar = gets.chomp.to_i
 		
